@@ -235,6 +235,7 @@
     <Content Include="Content\images\atDefaultScreenShot.png" />
     <Content Include="Content\images\blonyxScreenShot.png" />
     <Content Include="Content\images\gridme.png" />
+    <Content Include="Content\images\IDF_screenshot_sm.png" />
     <Content Include="Content\images\inflicted.png" />
     <Content Include="Content\images\_placeholder.png" />
     <Content Include="Content\images\placeholder.png" />
@@ -302,6 +303,7 @@
     <Content Include="Docs\Web.config" />
     <Content Include="Content\seedMethod" />
     <Content Include="Docs\rafDb.bak" />
+    <Content Include="Docs\texts.docx" />
     <None Include="Properties\PublishProfiles\rafaelrozon.com - FTP.pubxml" />
     <Content Include="Properties\PublishProfiles\rafaelrozon.com - FTP.pubxml.user" />
     <Content Include="Properties\PublishProfiles\rafaelrozon.com - Web Deploy.pubxml.user" />

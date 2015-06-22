@@ -69,7 +69,8 @@ namespace rafaelrozon.Migrations.WorkContext
                             Source = "~/Content/images/atDefaultScreenShot.png"                                 
                         }
                     },
-                     Categories = new List<Categories>() { bootstrap, javaee, jsf, primefaces, jpa, css, mySql, ejb, ajax }
+                     Categories = new List<Categories>() { bootstrap, javaee, jsf, primefaces, jpa, css, mySql, ejb, ajax },
+                     Link = "https://www.youtube.com/watch?v=rEWy4JTVlvM"
                  }, // end of proj management app
 
                    /* SOFIA FISIOTERAPIA */
@@ -137,7 +138,27 @@ namespace rafaelrozon.Migrations.WorkContext
                     },
                     Categories = new List<Categories>() { bootstrap, asp, html5, css, csharp, responsive },
                     Link = "https://github.com/rafaelrozon/rafaelrozon.com"
-                } // end of rafaelrozon.com
+                }, // end of rafaelrozon.com
+
+                new Work { 
+                    Date = new DateTime(2015, 05, 22),
+                    Title = "International Downhill Federation - Web App",
+                    Status = 1,
+                    Description = "It was a 5 week project developed at BCIT for the International Downhill Federation. My group and I had to make a prototype of an ASP.NET MVC application for managing race events. The application had to handle users with different roles and I was responsible for implementing the features for the administrator role, which included: setup race events and their categories and management of users. The client wanted us to use his desktop application and database as a model for the web application, which was a great challenge and learning experience.",
+                    Images = new System.Collections.Generic.List<Models.Image>() { 
+                        new Image(){
+                            Date = new DateTime(2015, 05, 22),
+                            Description = "IDF Web App screenshot",
+                            Status = 1,
+                            Title = "IDF Web App",
+                            Source = "~/Content/images/IDF_screenshot_sm.png"                                 
+                        }
+                    },
+                    Categories = new List<Categories>() { bootstrap, asp, html5, css, csharp, responsive, mySql, ajax, mvc },
+                    Link = "https://www.youtube.com/watch?v=Lc_TrnImj54"
+                }
+
+
 
                ); // done saving of works
         }

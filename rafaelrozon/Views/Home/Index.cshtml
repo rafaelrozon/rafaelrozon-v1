@@ -19,7 +19,7 @@
                     @if (item.Link != null)
                     {
                         <div id="workLink">
-                            <a href="@item.Link">
+                            <a href="@item.Link" target="_blank">
                                 <h2>@item.Title</h2>
                             </a>
                         </div>
@@ -36,13 +36,7 @@
                         <p>
                             @item.Description
                             <br />
-                            @if (item.Link != null)
-                            {
-                                <a href="@item.Link">
-                                    <i class="readMore fa fa-plus-square fa-1x"></i>
-                                    See More
-                                </a>
-                            }
+                           
                         </p>
 
                         <div class="tech">
