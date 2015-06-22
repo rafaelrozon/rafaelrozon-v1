@@ -1,0 +1,157 @@
+﻿/*
+    COLORS:
+
+    Dark grey: #839194;
+    Light grey: #B4BDCC;
+    Medium grey: #94A6B1;
+    Blue: #71BEC8;
+    Red: #EE5939;
+    Brown: #67675B;
+
+    1 1 2 3 5 8 13 21 34 55 89
+
+*/
+
+/* GLOBAL TYPOGRAPHY SETTINGS */
+body {
+    font-size: 14px;
+    line-height: 1.3em;
+}
+
+p {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1em;
+    line-height: 1.4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+    margin: .5em;
+}
+
+h1 {
+    font-size: 89px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+.headerContainer, .footerContainer {
+    background-color: #71BEC8;    
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: #EE5939;
+}
+
+#lk, #fb, #gh, #tw, #so, #fl {
+    color: white;
+}
+
+#lk:hover, #fb:hover, #gh:hover, #tw:hover, #so:hover, #fl:hover {
+    color: #EE5939;
+}
+
+footer {
+    font-family: Courier New, Courier, monospace;
+    font-size: .8em;
+    color: #67675B;
+}
+
+.fb-like {
+    margin-bottom: 1em;
+}
+
+/* hides the scrollbar */
+.parent {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.content {
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    padding-right: 200px;
+    background-color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+/* extra small */
+@media only screen and (min-width: 50px) and (max-width: 400px) {
+    
+    h1{
+        font-size: 4em;
+    }
+     h2 {
+         font-size: 1.4em;
+     }
+     h3 {
+         font-size: 1.3em;
+     }
+
+     h4{
+         font-size: 1.2em;
+     }
+
+     p {
+         font-size: 1.1em;
+         line-height: 1.5em;
+     }  
+}
+
+/* small devices */
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+    p {
+        line-height: 1.5em;
+    }
+}
+
+/* medium devices */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+    
+}
+
+/* large devices */
+@media only screen and (min-width: 1201px) {
+
+    .innerMain p {
+        width: 70%;
+        text-align:  start;
+         
+    }
+    .innerMain {
+        padding: 0;
+    }
+}

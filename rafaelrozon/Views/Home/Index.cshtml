@@ -1,0 +1,62 @@
+﻿@model IEnumerable<rafaelrozon.Models.Work>
+@{
+    ViewBag.Title = "Home Page";
+
+}
+
+@section styles{
+    @Styles.Render("~/Content/index")
+    @Styles.Render("~/Content/css/work.css")
+}
+
+@foreach (var item in Model)
+{
+    <div class="">
+        <div class="parent">
+            <div class="content">
+
+                <div class="row">
+                    @if (item.Link != null)
+                    {
+                        <div id="workLink">
+                            <a href="@item.Link">
+                                <h2>@item.Title</h2>
+                            </a>
+                        </div>
+                    }
+                    else
+                    {
+                        <h2>@item.Title</h2>
+                    }
+
+                    <div class="projectImg">
+                        <img src=@Url.Content(@item.Images.ElementAt(0).Source) alt="Alternate Text" />
+                    </div>
+                    <div class="description">
+                        <p>
+                            @item.Description
+                            <br />
+                            @if (item.Link != null)
+                            {
+                                <a href="@item.Link">
+                                    <i class="readMore fa fa-plus-square fa-1x"></i>
+                                    See More
+                                </a>
+                            }
+                        </p>
+
+                        <div class="tech">
+                            <ul>
+                                @foreach (var i in item.Categories)
+                                {
+                                    <li>@i.Name</li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="clear-fix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

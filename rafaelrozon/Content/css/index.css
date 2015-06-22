@@ -1,0 +1,267 @@
+﻿/* extra small sizes */
+.footerContainerFaux {
+    display: none;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin-bottom: 5em;
+}
+
+
+.innerMain h1 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.headerContainer {
+    margin: 0;
+    max-width: 100%;
+    padding: 1.5em;
+    text-align: justify;
+}
+
+nav {
+    padding: 1em 0 0 1em;
+    font-size: 1.7em;
+    text-align: center;
+    width: 90%;
+}
+
+    nav a {
+        margin: 0em 1em 1em 0em;
+        display: inline-block;
+    }
+
+.socialMedia {
+    text-align: center;
+    padding-top: .5em;
+}
+
+i {
+    margin: 0.4em;
+}
+
+.footerContainer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 0em 1em 0em;
+    height: 140px;
+}
+
+.mainContainer {
+    padding: 1.5em;
+    float: none;
+    background-repeat: repeat;
+    background-image: url('/Content/images/subtle_dots.png');
+}
+
+.innerMain {
+    padding-bottom: 4em;
+}
+
+
+.footerContainer {
+    bottom: 0;
+    left: 0;
+}
+
+#lk, #fb, #gh, #tw, #so, #fl {
+    font-size: 2em;
+}
+
+#emailForm {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto;
+}
+
+    .intro p {
+        padding: .5em;
+        color: #fff;
+        font-size: 1.1em;
+    }
+
+p {
+    padding: 0 .5em 0 .5em;
+}
+
+#workLink a h2:hover {
+    color: #157835;
+}
+
+#fbBtnSmallScreens, #fbBtnLargeScreens {
+    overflow:hidden;
+}
+
+.content {
+    background-image: url('/Content/images/subtle_dots.png');
+    background-repeat: repeat;
+    overflow-x:hidden;
+}
+
+footer p {
+    color: #fff;
+    font-family: Consolas, 'Courier New', monospace;
+}
+/*small devices */
+@media only screen and (min-width: 401px) {
+
+    .socialMedia {
+        margin-bottom: 1.5em;
+    }
+
+
+}
+
+@media only screen and (min-width: 801px) {
+
+    .intro {
+        width: 70%;
+    }
+
+    .innerMain {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .footerContainerFaux {
+        display: block;
+    }
+
+    .footerContainer {
+        display: none;
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .wrapper {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+
+    .headerContainer {
+        float: right;
+        width: 35%;
+        padding: 0;
+        margin: 0;
+        z-index: 5555;
+         height: 100%;
+        position: relative;
+       overflow-y:hidden;
+    }
+
+
+    .footerContainer {
+        height: 40%;
+        position: initial;
+    }
+
+    .content h1 {
+        padding-top: .5em;
+    }
+
+    .mainContainer {
+        float: left;
+        width: 65%;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        overflow:hidden;
+    }
+
+    .innerMain {
+       
+        height: 100%;
+        padding-right: 200px;
+        width: 100%;
+    }
+
+        .innerMain p {
+            width: 60%;
+            line-height: 1.4em;
+            font-size: 1.2em;
+        }
+
+    .content {
+        width: 100%;
+        padding-bottom: 5em;
+    }
+
+    .intro {
+        position: relative;
+        top: 3em;
+        text-align: left;
+        width: 70%;
+    }
+
+    nav {
+        padding: 5em 0 0 0;
+        width: 55%;
+        text-align: right;
+        font-size: 1.5em;
+    }
+
+        nav a {
+            display: block;
+            list-style: none;
+            padding-top: 0.5em;
+        }
+
+    .socialMedia {
+        position: relative;
+        bottom: -10em;
+        left: 6em;
+        width: 30%;
+        max-height: 80%;
+    }
+
+    #lk, #fb, #gh, #tw, #so, #fl {
+        font-size: 3em;
+        margin: 0.5em 0.5em 0 0;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 1em;
+        right: 2em;
+        text-align: right;
+    }
+}
+
+
+@media only screen and (min-width: 1700px) {
+    .socialMedia {
+        
+        bottom: -15em;
+      
+    }
+}

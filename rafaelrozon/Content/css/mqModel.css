@@ -1,0 +1,21 @@
+﻿/*
+    COLORS:
+
+    Dark grey: #839194;
+
+*/
+/* extra small devices */
+@media only screen and (min-width: 50px) and (max-width: 400px) {
+}
+
+/* small devices */
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+}
+
+/* medium devices */
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+}
+
+/* large devices */
+@media only screen and (min-width: 1201px) {
+}

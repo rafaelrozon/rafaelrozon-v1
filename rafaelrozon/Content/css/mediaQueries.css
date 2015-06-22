@@ -1,0 +1,182 @@
+
+/* extra small devices */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    #wrapper {
+        height: 100%;
+    }
+
+    #mainRow {
+        height: 100%;
+    }
+
+    #left {
+        min-height: 50%;
+    }
+
+    #right {
+        height: auto;
+    }
+
+    #intro {
+        margin: 1em 0;
+    }
+
+    #menu {
+        text-align: center;
+        font-size: x-large;
+        margin: 1em 0;
+        padding-top: 0;
+    }
+
+    #menu a {
+        margin-right: 0.5em;
+    }
+
+    #socialMedia {
+        margin: 2em 0 3em 0;
+    }
+
+    #socialMedia div {
+        margin: 1em;
+    }
+
+    #copyrightN {
+    }
+
+    #top {
+        height: auto;
+    } 
+    #middle {
+        height:auto;
+    }
+
+    #contact {
+        margin-top: 5em;
+    }
+}
+
+/* small devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    #mainRow {
+        height: 100%;
+    }
+
+    #wrapper {
+        height: 100%;
+    }
+
+    #menu {
+        text-align: left;
+        font-size: x-large;
+        margin: 1em 0;
+    }
+
+    #menu a {
+        margin-right: 1em;
+    }
+
+    #middle {
+        padding: 0;
+        margin: 0;
+    }
+
+    #containerMenu {
+        padding: 0;
+        margin: 0;
+    }
+
+    #copyrightN {
+        margin-top: 1em;
+    }
+
+    #socialMedia {
+    }
+
+        #socialMedia div {
+            margin: 0.5em;
+        }
+
+    #intro {
+        margin: 1em;
+    }
+
+    #left {
+        min-height: 60%;
+    }
+
+    #right {
+        height: auto;
+    }
+}
+
+/* medium devices */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #intro {
+        padding: 1em;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        height: 100%;
+    }
+
+    #mainRow {
+        height: 100%;
+    }
+
+    #wrapper {
+        height: 100%;
+    }
+
+    #menu {
+        font-size: x-large;
+        margin: 1em 0;
+    }
+
+        #menu div {
+            padding: 0;
+            margin: 0;
+        }
+
+    #menuItems {
+        padding: 0;
+    }
+
+    #copyright {
+        margin-top: 2em;
+    }
+
+    #socialMedia div {
+        margin: 1em;
+    }
+
+    #left {
+        height: 100%;
+    }
+
+    #right {
+        padding: 1em;
+        height: auto;
+    }
+}

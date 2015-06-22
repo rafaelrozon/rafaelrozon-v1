@@ -1,0 +1,132 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+
+}
+
+@section styles{
+    @Styles.Render("~/Content/index")
+    @Styles.Render("~/Content/css/work.css")
+}
+
+
+<div class="">
+    <div class="parent">
+        <div class="content">
+
+            <div class="row">
+                <h2>rafaelrozon.com</h2>
+                <div class="projectImg">
+                    <img src="~/Content/images/placeholder.png" />
+                </div>
+                <div class="description">
+                    <p>
+                        It is a living project, dreamed a long time ago, and now implemented using ASP.NET MVC 5,
+                        HTML5, and CSS from scratch. No web frameworks, not in this project. I started using Bootstrap, but
+                        I thought I would learn more if I tried doing everything by myself. It is taking more time, but I 
+                        am learning much more.  
+                        <br/>        
+                        <i class="readMore fa fa-plus-square fa-1x">
+                            @Html.ActionLink("Read more", "WorkItem", "Home")
+                        </i>              
+                    </p>
+                   
+                   
+                    <div class="tech">
+                        <ul>
+                            <li>ASP.NET MVC 5</li>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Responsive</li>
+                        </ul>
+
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+               
+            </div>
+            <div class="row">
+                <h2>Project Management App</h2>
+                <div class="projectImg">
+
+                    <img src="~/Content/images/atDefaultScreenShot.png" />
+
+                </div>
+                <div class="description">
+                    <p>
+                        This is a current project I am developing with other 9 classmates at BCIT for the course Managing Information Systems Development.
+                        It is a web application that provides tools for project managers control budget allocated to software development projects.  
+                        It is a multi-tier application that follows the MVC pattern and implemented in Java EE, JSF, PrimeFaces, and Bootstrap. The Rational Unified 
+                        Process has been used as the model of development. I am mainly responsible for the user interface, but I have also made integrations 
+                        with the back-end.            
+                    </p>
+                    <div class="tech">
+                        <ul>
+                            <li>Java EE</li>
+                            <li>JSF 2.2</li>
+                            <li>EJB 3</li>
+                            <li>JPA</li>
+                            <li>MySQL</li>
+                            <li>Responsive</li>
+                            <li>Bootstrap</li>
+                            <li>Ajax</li>
+                        </ul>
+                    </div>
+                    <div class="clear-fix"></div>
+
+                </div>
+               
+            </div>
+            <div class="row">
+                <h2>Blonyx Web App</h2>
+                <div class="projectImg">
+
+                    <img src="~/Content/images/blonyxScreenShot.png" />
+                </div>
+                <div class="description">
+                    <p>
+                        Project developed in group for Blonyx Bioscience as part of the course 'Computer Projects Practicum' at BCIT. Me and my colleagues developed a prototype of a web application that enables Crossfit coaches to create workout routines, schedule them, and have their content posted automatically to Wordpress blogs. The main challenges was to provide content that the blogs could easly access and display consistently while promoting the brand of the company. It was a great challenge with tight deadlines, new technologies, lots of documentatin, and definetely a great learning experiece.           </p>
+                    <div class="tech">
+                        <ul>
+                            <li>PHP</li>
+                            <li>Cron Jobs</li>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>MySQL</li>
+                            <li>Responsive</li>                          
+                            <li>Ajax</li>
+                        </ul>
+                    </div>
+                    <div class="clear-fix"></div>
+
+                </div>
+            </div>
+            <div class="row">
+                <h2>sofiafisoterapia.com</h2>
+                <div class="projectImg">
+                    <img src="~/Content/images/sofiaWebScreenShot.png" />
+
+
+                </div>
+                <div class="description">
+                    <p>
+                        It is a work current in progress that I am developing for my girlfriend. She is a fisioterapist in Brazil specilized in 
+                        women health, ostheopaty, and sexuality. The goal of the website is to showcase her work for prospective patients, as well
+                        as her academic publications and informative texts. I tried to keep it simple and focus the attention to the content, which
+                        is the most important part. The next steps are the implementation of SEO and metrics.
+                    </p>
+                    <div class="tech">
+                        <ul>
+                            <li>ASP.NET Web Forms</li>
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>                           
+                            <li>Responsive</li>                                                     
+                        </ul>
+                    </div>
+                    <div class="clear-fix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
