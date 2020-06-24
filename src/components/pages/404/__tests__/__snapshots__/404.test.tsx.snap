@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`404 tests should render 1`] = `
+<div>
+  <h1
+    class="sc-AxjAm jKXhHi"
+  >
+    NOT FOUND
+  </h1>
+  <button
+    class="sc-AxirZ kPICFO"
+  >
+    Go Back?
+  </button>
+  <img
+    class="sc-AxiKw juzLaN"
+    src="https://media.giphy.com/media/rU6L2fuP17sS4/giphy.gif"
+  />
+</div>
+`;
