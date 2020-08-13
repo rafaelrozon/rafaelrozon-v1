@@ -18,7 +18,7 @@ const {
     Footer,
     Tooltip,
     Hello,
-    Name
+    Name,
 } = Styles;
 
 const IndexPage = props => {
@@ -30,6 +30,7 @@ const IndexPage = props => {
 
     return (
         <HomeContainer>
+
             <SEO title="Home" lang="en" />
             <HomeMain>
                 <Title data-testid="greetings">
@@ -38,7 +39,6 @@ const IndexPage = props => {
                     <Name>I'm Rafael Rozon</Name>
                 </Title>
                 <MainText data-testid="main-text">
-                    {/* <Paragraph>And welcome to my humble online home.</Paragraph> */}
                     <Paragraph>
                         I'm a Brazilian software developer living in the
                         beautiful British Columbia, Canada.
@@ -49,9 +49,9 @@ const IndexPage = props => {
                         being able to tackle problems in different programming
                         languages and stacks. I have experience working with
                         enterprise frontend development mainly in React and
-                        Typescript and I also like DevOps, algorithms, design
-                        patterns, testing, and the intersection of design and
-                        engineering.
+                        Typescript and I also like DevOps, Algorithms, Design
+                        Patterns, Testing, and the intersection of Design and
+                        Engineering.
                     </Paragraph>
                     <Paragraph>
                         I'm in a long learning path to become a Software
@@ -75,6 +75,7 @@ const IndexPage = props => {
                                 <SocialMediaLink
                                     href={link.href}
                                     alt={link.alt}
+                                    target="__blank"
                                 >
                                     <Icon name={link.icon} />
                                 </SocialMediaLink>

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'gatsby';
 
 export const NotFound = styled.h1`
     position: absolute;
@@ -11,8 +12,9 @@ export const NotFound = styled.h1`
     transform: translate(-50%, -50%);
 `;
 
-export const GoBack = styled.button`
+export const GoBack = styled(Link)`
     position: absolute;
+    text-decoration: none;
     background: ${props => props.theme.color.orange};
     color: ${props => props.theme.color.black};
     padding: 1em;

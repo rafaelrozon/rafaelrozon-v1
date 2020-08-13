@@ -32,6 +32,7 @@
     "react-helmet": "^6.1.0",
     "react-i18next": "^11.7.0",
     "styled-components": "^5.1.1",
+    "styled-reset": "^4.2.2",
     "typeface-merriweather-sans": "0.0.72",
     "typeface-roboto": "0.0.75",
     "typeface-roboto-mono": "^0.0.75",
@@ -46,8 +47,10 @@
     "babel-jest": "^26.2.2",
     "babel-preset-gatsby": "^0.5.4",
     "babel-preset-typescript": "7.0.0-alpha.20",
+    "husky": ">=4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.1.0",
+    "lint-staged": ">=10",
     "prettier": "2.0.5",
     "react-test-renderer": "^16.13.1"
   },
@@ -73,6 +76,16 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "jest"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md}": [
+      "npm run format"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "bugs": {
     "url": "https://github.com/rafaelrozon/rafaelrozon.com/issues"
