@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Newsletter should display error message if api fails 1`] = `
+<div>
+  <div
+    data-testid="newsletter"
+  >
+    <h2
+      class="sc-AxjAm hxvytf"
+    >
+      Subscribe to my Newsletter
+    </h2>
+    <p
+      class="sc-AxirZ liNIsn"
+    >
+      I won't send you spam. Unsubscribe at any time.
+    </p>
+    <form
+      action="#"
+    >
+      <p
+        class="sc-AxhUy bOBYiu"
+        data-testid="newsletter-error"
+        type="error"
+      >
+        api failed
+      </p>
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-AxgMl drUjts"
+        >
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              First Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="firstName"
+              id="firstName"
+              name="firstName"
+              type="text"
+              value="bob"
+            />
+          </div>
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              Last Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="lastName"
+              id="lastNamee"
+              name="lastName"
+              type="text"
+              value="john"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxmLO fNcoXh"
+      >
+        <label
+          class="sc-AxiKw iheSGU"
+        >
+          Email
+        </label>
+        <input
+          class="sc-AxhCb cAA-drw"
+          data-testid="email"
+          id="email"
+          name="email"
+          type="email"
+          value="bob@gmail.com"
+        />
+      </div>
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-fzoLsD eTQKtC"
+        >
+          <input
+            class="sc-AxheI hWNLvW"
+            data-testid="submit"
+            type="submit"
+            value="Subscribe"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Newsletter should display generic error message 1`] = `
+<div>
+  <div
+    data-testid="newsletter"
+  >
+    <h2
+      class="sc-AxjAm hxvytf"
+    >
+      Subscribe to my Newsletter
+    </h2>
+    <p
+      class="sc-AxirZ liNIsn"
+    >
+      I won't send you spam. Unsubscribe at any time.
+    </p>
+    <p
+      class="sc-AxhUy bOBYiu"
+      data-testid="generic-error"
+      type="error"
+    >
+      Sorry, some error happened.
+    </p>
+    <form
+      action="#"
+    >
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-AxgMl drUjts"
+        >
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              First Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="firstName"
+              id="firstName"
+              name="firstName"
+              type="text"
+              value="bob"
+            />
+          </div>
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              Last Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="lastName"
+              id="lastNamee"
+              name="lastName"
+              type="text"
+              value="john"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxmLO fNcoXh"
+      >
+        <label
+          class="sc-AxiKw iheSGU"
+        >
+          Email
+        </label>
+        <input
+          class="sc-AxhCb cAA-drw"
+          data-testid="email"
+          id="email"
+          name="email"
+          type="email"
+          value="bob@gmail.com"
+        />
+      </div>
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-fzoLsD eTQKtC"
+        >
+          <input
+            class="sc-AxheI hWNLvW"
+            data-testid="submit"
+            type="submit"
+            value="Subscribe"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Newsletter should display success message if api is ok 1`] = `
+<div>
+  <div
+    data-testid="newsletter"
+  >
+    <h2
+      class="sc-AxjAm hxvytf"
+    >
+      Subscribe to my Newsletter
+    </h2>
+    <p
+      class="sc-AxirZ liNIsn"
+    >
+      I won't send you spam. Unsubscribe at any time.
+    </p>
+    <form
+      action="#"
+    >
+      <p
+        class="sc-AxhUy fVwsKs"
+        data-testid="newsletter-success"
+        type="success"
+      >
+        email saved
+      </p>
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-AxgMl drUjts"
+        >
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              First Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="firstName"
+              id="firstName"
+              name="firstName"
+              type="text"
+              value="bob"
+            />
+          </div>
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              Last Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="lastName"
+              id="lastNamee"
+              name="lastName"
+              type="text"
+              value="john"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxmLO fNcoXh"
+      >
+        <label
+          class="sc-AxiKw iheSGU"
+        >
+          Email
+        </label>
+        <input
+          class="sc-AxhCb cAA-drw"
+          data-testid="email"
+          id="email"
+          name="email"
+          type="email"
+          value="bob@gmail.com"
+        />
+      </div>
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-fzoLsD eTQKtC"
+        >
+          <input
+            class="sc-AxheI hWNLvW"
+            data-testid="submit"
+            type="submit"
+            value="Subscribe"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`Newsletter should sign user to newsletter 1`] = `
+<div>
+  <div
+    data-testid="newsletter"
+  >
+    <h2
+      class="sc-AxjAm hxvytf"
+    >
+      Subscribe to my Newsletter
+    </h2>
+    <p
+      class="sc-AxirZ liNIsn"
+    >
+      I won't send you spam. Unsubscribe at any time.
+    </p>
+    <form
+      action="#"
+    >
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-AxgMl drUjts"
+        >
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              First Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="firstName"
+              id="firstName"
+              name="firstName"
+              type="text"
+              value="bob"
+            />
+          </div>
+          <div
+            class="sc-fzoLsD bpwvRW"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              Last Name
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="lastName"
+              id="lastNamee"
+              name="lastName"
+              type="text"
+              value="john"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="sc-AxmLO fNcoXh"
+      >
+        <label
+          class="sc-AxiKw iheSGU"
+        >
+          Email
+        </label>
+        <input
+          class="sc-AxhCb cAA-drw"
+          data-testid="email"
+          id="email"
+          name="email"
+          type="email"
+          value="bob@gmail.com"
+        />
+      </div>
+      <div
+        class="sc-fzozJi iKvhFv"
+      >
+        <div
+          class="sc-fzoLsD eTQKtC"
+        >
+          <input
+            class="sc-AxheI hWNLvW"
+            data-testid="submit"
+            type="submit"
+            value="Subscribe"
+          />
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

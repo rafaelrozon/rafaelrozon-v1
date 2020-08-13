@@ -1,0 +1,46 @@
+- twitter:
+  name: Twitter
+  href: https://twitter.com/rafaelrozon
+  icon: twitter
+  alt: https://twitter.com/rafaelrozon
+- linkedin:
+  name: LinkedIn
+  href: www.linkedin.com/in/rafaelrozon
+  alt: www.linkedin.com/in/rafaelrozon
+  icon: linkedin
+- github:
+  name: Github
+  href: https://github.com/rafaelrozon
+  alt: https://github.com/rafaelrozon
+  icon: github
+- stackoverflow:
+  name: StackOverflow
+  href: https://stackoverflow.com/users/2869902/rafael-rozon
+  alt: https://stackoverflow.com/users/2869902/rafael-rozon
+  icon: stackoverflow
+- medium:
+  name: Medium
+  href: https://medium.com/@rafaelrozon
+  alt: https://medium.com/@rafaelrozon
+  icon: medium
+- devto:
+  name: Dev.to
+  href: https://dev.to/rafaelrozon
+  alt: https://dev.to/rafaelrozon
+  icon: devto
+- spotify:
+  name: Spotify
+  href: https://open.spotify.com/user/rafaelrozon?si=npiA9O36R7-tw_SMQR1XQQ
+  alt: https://open.spotify.com/user/rafaelrozon?si=npiA9O36R7-tw_SMQR1XQQ
+  icon: spotify
+- instagram:
+  name: Instagram
+  href: https://www.instagram.com/rafaelrozon/
+  alt: https://www.instagram.com/rafaelrozon/
+  icon: instagram
+- gitbook:
+  name: GitBook
+  href: https://app.gitbook.com/@rafaelrozon/s/study/
+  alt: https://app.gitbook.com/@rafaelrozon/s/study/
+  icon: gitbook
+

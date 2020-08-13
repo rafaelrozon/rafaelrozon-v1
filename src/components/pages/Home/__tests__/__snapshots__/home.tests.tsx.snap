@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home page tests should render 1`] = `
+<div>
+  <div
+    class="sc-fzokOt RrrDX"
+  >
+    <div
+      class="sc-fzqBZW ikKApK"
+    >
+      <h1
+        class="sc-fzqNJr kjhCAo"
+        data-testid="greetings"
+      >
+        Hi, I'm Rafael
+      </h1>
+      <div
+        class="sc-fzpans kCoLiu"
+        data-testid="main-text"
+      >
+        <p
+          class="sc-fznyAO ibMgTp"
+        >
+          My name is Rafael, I'm a Brazilian software developer living in the beautiful British Columbia, Canada. I consider myself a Full Stack JavaScript developer, but I'm proud to be able to tackle problems in different programming languages and stacks. I have experience working with enterprise frontend development mainly in React and Typescript, and a plethora of other tools and frameworks around these two. I have been refreshing my Java skills and learning the Spring Framework. I also like DevOps, algorithms, design patterns, testing, and the intersection of design and technology. I'm in a long learning path to become a Software Architect and I'm teaching myself typography and calligraphy. My interests revolve around: reading, cooking, photography, tech, and exploring my city. When I'm not working, that's what I'm doing. Feel free to say hi!
+        </p>
+      </div>
+      <div
+        class="sc-fzplWN dbpIDL"
+        data-testid="social-media-list"
+      >
+        <div
+          class="sc-fznZeY bjDLcV"
+        >
+          <a
+            alt="twitter"
+            class="sc-fznKkj dsnHFS"
+            href="https://twitter"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-twitter-square fa-w-14 fa-lg "
+              data-icon="twitter-square"
+              data-prefix="fab"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+          <span
+            class="tooltiptext"
+          >
+            twitter
+          </span>
+        </div>
+        <div
+          class="sc-fznZeY bjDLcV"
+        >
+          <a
+            alt="medium"
+            class="sc-fznKkj dsnHFS"
+            href="https://medium"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-medium fa-w-14 fa-lg "
+              data-icon="medium"
+              data-prefix="fab"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+          <span
+            class="tooltiptext"
+          >
+            medium
+          </span>
+        </div>
+      </div>
+      <hr
+        class="sc-fzoyAV kmSaca"
+      />
+      <div
+        data-testid="newsletter"
+      >
+        <h2
+          class="sc-AxjAm hxvytf"
+        >
+          Subscribe to my Newsletter
+        </h2>
+        <p
+          class="sc-AxirZ liNIsn"
+        >
+          I won't send you spam. Unsubscribe at any time.
+        </p>
+        <form
+          action="#"
+        >
+          <div
+            class="sc-fzozJi iKvhFv"
+          >
+            <div
+              class="sc-AxgMl drUjts"
+            >
+              <div
+                class="sc-fzoLsD bpwvRW"
+              >
+                <label
+                  class="sc-AxiKw iheSGU"
+                >
+                  First Name
+                </label>
+                <input
+                  class="sc-AxhCb cAA-drw"
+                  data-testid="firstName"
+                  id="firstName"
+                  name="firstName"
+                  type="text"
+                  value=""
+                />
+              </div>
+              <div
+                class="sc-fzoLsD bpwvRW"
+              >
+                <label
+                  class="sc-AxiKw iheSGU"
+                >
+                  Last Name
+                </label>
+                <input
+                  class="sc-AxhCb cAA-drw"
+                  data-testid="lastName"
+                  id="lastNamee"
+                  name="lastName"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-AxmLO fNcoXh"
+          >
+            <label
+              class="sc-AxiKw iheSGU"
+            >
+              Email
+            </label>
+            <input
+              class="sc-AxhCb cAA-drw"
+              data-testid="email"
+              id="email"
+              name="email"
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            class="sc-fzozJi iKvhFv"
+          >
+            <div
+              class="sc-fzoLsD eTQKtC"
+            >
+              <input
+                class="sc-AxheI hWNLvW"
+                data-testid="submit"
+                type="submit"
+                value="Subscribe"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <p
+      class="sc-fzoLag cbDlha"
+      data-testid="footer"
+    >
+      © 
+      2020
+       Rafael Rozon
+    </p>
+  </div>
+</div>
+`;
