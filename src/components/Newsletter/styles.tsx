@@ -7,6 +7,7 @@ export const Container = styled.div`
 
 export const SubscribeTo = styled.h2`
     text-align: center;
+    margin: 1em 0;
     font-size: 18px;
     font-weight: bold;
     font-family: ${props => props.theme.color.header};

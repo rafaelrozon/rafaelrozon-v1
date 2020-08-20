@@ -11,11 +11,12 @@ export const Hello = styled.span`
         font-size: 2.5em;
     }
 `;
+
 export const Name = styled.span`
-    font-size: 1em;
+    font-size: 1.2em;
 
     @media screen and (min-width: 561px) and (max-width: 1079px) {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 
     @media screen and (min-width: 1080px) {
@@ -25,16 +26,21 @@ export const Name = styled.span`
 
 export const Title = styled.h1`
     font-family: ${props => props.theme.fontFamily.mono};
+    font-size: 26px;
 `;
 
 export const MainText = styled.div`
     margin: 2em 0 2em;
 `;
+
 export const SocialMediaList = styled.div`
-    margin: 2em auto;
+    margin: 0.5em auto;
     padding: 0;
-    display: flex;
-    justify-content: space-evenly;
+
+    @media screen and (min-width: 561px) {
+        display: flex;
+        justify-content: space-evenly;
+    }
 `;
 
 export const Paragraph = styled.p`
@@ -49,10 +55,11 @@ export const Paragraph = styled.p`
 `;
 
 export const SocialMediaLink = styled.a`
-    margin: 0;
+    margin: 1em;
     padding: 0;
     text-decoration: none;
     color: ${props => props.theme.color.green};
+    display: inline-block;
 
     &:hover {
         text-decoration: underline;
@@ -68,17 +75,17 @@ export const Tooltip = styled.div`
         visibility: hidden;
         width: 110px;
         background-color: ${props => props.theme.color.lightGreen};
-        color: ${props => props.theme.color.white};
+        color: ${props => props.theme.color.black};
         text-align: center;
         padding: 6px;
         border-radius: 3px;
         font-size: 14px;
 
-        /* Position the tooltip text - see examples below! */
+        /* Position the tooltip text */
         position: absolute;
         z-index: 1;
 
-        top: 140%;
+        top: 100%;
         left: 50%;
         margin-left: -55px;
     }
@@ -90,8 +97,6 @@ export const Tooltip = styled.div`
 `;
 
 export const HomeContainer = styled.div`
-    border: 1em solid ${props => props.theme.color.mediumOrange};
-    min-width: 360px;
 `;
 
 export const HomeMain = styled.div`
@@ -99,6 +104,7 @@ export const HomeMain = styled.div`
     padding: 1em;
     font-family: ${props => props.theme.fontFamily.body};
     max-width: 600px;
+
 
     @media (min-width: 425px) {
         margin: 2em auto;
@@ -112,4 +118,5 @@ export const HR = styled.hr`
 export const Footer = styled.p`
     font-family: ${props => props.theme.fontFamily.mono};
     text-align: center;
+    margin: 1.5em 0;
 `;
