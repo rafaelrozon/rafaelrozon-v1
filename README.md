@@ -6,11 +6,9 @@
 [![Github](https://img.shields.io/badge/-GitHub-grey?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/rafaelrozon)](https://github.com/rafaelrozon)
 
 
-
-
 ## Intro
 
-Hi, I'm Rafael Rozon and I am a Full Stack Software Developer. I have been coding professionaly since 2015 and I love JavaScript, React, Web Development, and the intersection of Design and Engineering.
+Hi, I'm Rafael Rozon, and I am a Full Stack Software Developer. I have been coding professionally since 2015. I love JavaScript, React, Web Development, and the intersection of Design and Engineering.
 
 ## Where to find me
 
