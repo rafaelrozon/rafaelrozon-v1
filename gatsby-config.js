@@ -6,7 +6,7 @@ module.exports = {
     siteMetadata: {
         siteUrl: 'https://www.rafaelrozon.com',
         title: `Rafael Rozon Website`,
-        description: `Personal Website of Rafael Rozon: I'm a Brazilian Software Engineer living in Vancouver, BC. I build Web Apps in React and JavaScript and share what I learned. `,
+        description: `Personal Website of Rafael Rozon: I'm a Brazilian Software Engineer living in Vancouver, BC. I build Web Apps in React and JavaScript and share what I learn.`,
         author: `Rafael Rozon`,
     },
     plugins: [

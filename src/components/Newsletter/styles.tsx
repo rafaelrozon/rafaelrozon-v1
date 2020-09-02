@@ -19,7 +19,6 @@ export const SubscribeWarning = styled.p`
     margin-bottom: 2em;
 `;
 
-
 // Form
 export const Label = styled.label`
     display: block;

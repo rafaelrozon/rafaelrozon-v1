@@ -1,6 +1,6 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import {GlobalStyle} from './src/styles/global-styles';
+import { GlobalStyle } from './src/styles/global-styles';
 
 import theme from './src/styles/theme';
 
