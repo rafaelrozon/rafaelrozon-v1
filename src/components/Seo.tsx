@@ -50,7 +50,6 @@ const SEO: React.FC<Props> = ({
                 lang,
             }}
             title={title}
-            titleTemplate={`%s | ${site.siteMetadata.title}`}
             meta={[
                 {
                     name: `description`,
@@ -83,6 +82,10 @@ const SEO: React.FC<Props> = ({
                 {
                     name: `twitter:description`,
                     content: metaDescription,
+                },
+                {
+                    name: 'twitter:site',
+                    content: '@rafaelrozon',
                 },
             ].concat(meta)}
         />
