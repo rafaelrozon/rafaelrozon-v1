@@ -1,5 +1,8 @@
 import * as React from 'react';
-import { FontAwesomeIcon, Props as FontAwesomeProps } from '@fortawesome/react-fontawesome';
+import {
+    FontAwesomeIcon,
+    Props as FontAwesomeProps,
+} from '@fortawesome/react-fontawesome';
 import {
     faMedium,
     faTwitterSquare,
@@ -8,7 +11,7 @@ import {
     faStackOverflow,
     faDev,
     faSpotify,
-    faInstagram
+    faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 
@@ -21,11 +24,11 @@ enum SupportedIcons {
     devto = 'devto',
     spotify = 'spotify',
     instagram = 'instagram',
-    gitbook = 'gitbook'
+    gitbook = 'gitbook',
 }
 
 const toIcon = name => {
-    const map: {[key in SupportedIcons]: any} = {
+    const map: { [key in SupportedIcons]: any } = {
         medium: faMedium,
         twitter: faTwitterSquare,
         linkedin: faLinkedinIn,
@@ -44,7 +47,7 @@ interface Props {
     size?: FontAwesomeProps['size'];
 }
 
-const Icon: React.FC<Props> = ({ name, size = 'lg'}) => {
+const Icon: React.FC<Props> = ({ name, size = 'lg' }) => {
     return <FontAwesomeIcon icon={toIcon(name)} size={size} />;
 };
 

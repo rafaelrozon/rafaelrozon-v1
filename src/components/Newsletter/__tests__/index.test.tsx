@@ -4,7 +4,7 @@ import Newsletter from '..';
 
 const fireChange = (element, value) => {
     fireEvent.change(element, { target: { value } });
-}
+};
 
 describe('Newsletter', () => {
     it('should sign user to newsletter', async () => {
@@ -26,7 +26,7 @@ describe('Newsletter', () => {
             fireChange(emailInput, email);
 
             btn.click();
-        })
+        });
 
         const payload = {
             FNAME: 'Bob',
@@ -107,7 +107,9 @@ describe('Newsletter', () => {
     });
 
     it('should display generic error message', async () => {
-        const onSaveMock = jest.fn(() => {throw new Error('it should fail')});
+        const onSaveMock = jest.fn(() => {
+            throw new Error('it should fail');
+        });
         const firstName = 'bob';
         const lastName = 'john';
         const email = 'bob@gmail.com';

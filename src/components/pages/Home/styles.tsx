@@ -96,15 +96,13 @@ export const Tooltip = styled.div`
     }
 `;
 
-export const HomeContainer = styled.div`
-`;
+export const HomeContainer = styled.div``;
 
 export const HomeMain = styled.div`
     margin: 2em 0;
     padding: 1em;
     font-family: ${props => props.theme.fontFamily.body};
     max-width: 600px;
-
 
     @media (min-width: 425px) {
         margin: 2em auto;
